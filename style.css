@@ -117,5 +117,7 @@ nav a:hover {
 }
 
 .image-box {
-    background-color: #F13C6E;
+    width: 1920px;
+    height: 604px;
+    background-image: url(/images/banner.png);
 }
