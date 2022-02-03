@@ -7,6 +7,12 @@ body {
     font-weight: 400;
 }
 
+.container-box {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .clearfix {
     clear: both;
 }
@@ -17,8 +23,6 @@ body {
 
 .container-box-center {
     width: 445px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav li {
@@ -27,6 +31,10 @@ nav li {
 
 nav li:last-of-type {
     margin-right: 0;
+}
+
+nav a:hover {
+    color: rgba(241, 60, 110, 1);
 }
 
 li>a {
@@ -41,4 +49,59 @@ li>a {
     color: rgba(51, 51, 51, 1);
     font-size: 14px;
     line-height: 16px;
+}
+
+.top-box {
+    padding: 20px 0;
+    border-bottom: rgba(239, 239, 239, 1) 1px solid;
+}
+
+.logo-box {
+    float: left;
+}
+
+.logo-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo-text {
+    float: left;
+    margin-top: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(241, 60, 110, 1);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    
+}
+
+.phone-button-box {
+    float: right;
+}
+
+.phone {
+    float: left;
+    margin: 32px 40px 0 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.button {
+    float: left;
+    margin-top: 19px;
+    width: 170px;
+    height: 40px;
+    background: #ffffff;
+    border: 2px solid rgba(241, 60, 110, 1);
+    border-radius: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #ffffff;
+    background: rgba(241, 60, 110, 1);
 }
