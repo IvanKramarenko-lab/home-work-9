@@ -167,12 +167,11 @@ main {
     background-color: rgba(239, 239, 239, 1);
 }
 
-.special-offer {
+.item-block {
     float: left;
-    margin-bottom: 100px;
 }
 
-.special-offer>h2 {
+.item-block>h2 {
     width: 1110px;
     float: left;
     margin-bottom: 38px;
@@ -223,7 +222,7 @@ main {
 
 .info-card {
     float: left;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 .bonus-card {
@@ -318,4 +317,97 @@ input::placeholder {
     width: 189px;
     height: 100px;
     margin-top: 21px;
+}
+
+.impuls-box {
+    float: left;
+    margin-bottom: 80px;
+}
+
+.impuls-block {
+    float: left;
+    background-color: #FFFFFF;
+    margin: 1px;
+}
+
+.impuls-block:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.impuls-block:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.impuls-block:nth-child(n+1) {
+    margin-top: 0;
+}
+
+.impuls-block:nth-child(n+9) {
+    margin-bottom: 0;
+}
+
+.impuls-img {
+    float: left;
+    background-image: url(/images/impuls.png);
+    width: 149px;
+    height: 49px;
+    margin: 35px 68px 35px 59px;
+}
+
+.footer-top-box {
+    padding: 60px 0;
+    border-bottom: rgba(239, 239, 239, 1) 1px solid;
+}
+
+.category-box {
+    float: left;
+    width: 255px;
+    margin-right: 30px;
+}
+
+.category-box:last-of-type {
+    margin-right: 0;
+}
+
+.category-box>h4 {
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    padding-bottom: 30px;
+    margin: 0 156px 30px 0;
+    border-bottom: rgba(239, 239, 239, 1) 1px solid;
+}
+
+.category-list {
+    float: left;
+    margin-right: 173px;
+}
+
+.category-list li {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.category-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.category-list a {
+    color: rgba(130, 130, 130, 1);
+    font-size: 12px;
+}
+
+.footer-bottom-box {
+    padding: 20px 0;
+}
+
+.social-box {
+    float: left;
+}
+
+
+
+.social-icon {
+
 }
