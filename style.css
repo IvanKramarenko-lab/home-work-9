@@ -399,15 +399,59 @@ input::placeholder {
 }
 
 .footer-bottom-box {
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
 }
 
 .social-box {
     float: left;
+    margin-top: 17px;
 }
 
+.social-box li {
+    float: left;
+    margin-right: 20px;
+}
 
+.social-box li:last-of-type {
+    margin-right: 0;
+}
 
 .social-icon {
+    float: left;
+    width: 45px;
+    height: 45px;
+}
 
+.yt {
+    background-image: url(/images/youtube-logo.png);
+}
+
+.vk {
+    background-image: url(/images/vk-logo.png);
+}
+
+.fb {
+    background-image: url(/images/fb-logo.png);
+}
+
+.insta {
+    background-image: url(/images/instagram-logo.png);
+}
+
+.confidentiality-box {
+    background-color: rgba(239, 239, 239, 1);
+    padding: 25px 0;
+}
+
+.law {
+    float: left;
+}
+
+.confidentiality-box a {
+    float: right;
+}
+
+.con-class {
+    color: rgba(130, 130, 130, 1);
+    font-size: 12px;
 }
