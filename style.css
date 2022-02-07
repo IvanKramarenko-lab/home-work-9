@@ -46,10 +46,6 @@ h1, h2, h3 {
     margin-right: auto;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .top-nav {
     background-color: #E5E5E5;
 }
