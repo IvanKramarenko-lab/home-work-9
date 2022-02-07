@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 .logo-img {
-    background-image: url(/images/main-logo.png);
+    background-image: url(./images/main-logo.png);
     width: 80px;
     height: 80px;
     margin-right: 20px;
@@ -126,7 +126,7 @@ nav a:hover {
 
 .image-box {
     height: 604px;
-    background-image: url(/images/banner.png);
+    background-image: url(./images/banner.png);
 }
 
 .chair-box {
@@ -185,7 +185,7 @@ main {
 .card-img {
     width: 125px;
     height: 166px;
-    background-image: url(/images/chair.png);
+    background-image: url(./images/chair.png);
     margin: 0 65px 20px;
 }
 
@@ -248,7 +248,7 @@ input::placeholder {
 }
 
 .bonus-card-img {
-    background-image: url(/images/group.png);
+    background-image: url(./images/group.png);
     width: 140px;
     height: 108px;
     margin-top: 18px;
@@ -288,7 +288,7 @@ input::placeholder {
 }
 
 .map-shop-img {
-    background-image: url(/images/car.png);
+    background-image: url(./images/car.png);
     width: 189px;
     height: 100px;
     margin-top: 21px;
@@ -320,7 +320,7 @@ input::placeholder {
 }
 
 .impuls-img {
-    background-image: url(/images/impuls.png);
+    background-image: url(./images/impuls.png);
     width: 149px;
     height: 49px;
     margin: 35px 68px 35px 59px;
@@ -385,19 +385,19 @@ input::placeholder {
 }
 
 .yt {
-    background-image: url(/images/youtube-logo.png);
+    background-image: url(./images/youtube-logo.png);
 }
 
 .vk {
-    background-image: url(/images/vk-logo.png);
+    background-image: url(./images/vk-logo.png);
 }
 
 .fb {
-    background-image: url(/images/fb-logo.png);
+    background-image: url(./images/fb-logo.png);
 }
 
 .insta {
-    background-image: url(/images/instagram-logo.png);
+    background-image: url(./images/instagram-logo.png);
 }
 
 .confidentiality-box {
