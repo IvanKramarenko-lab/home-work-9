@@ -20,6 +20,13 @@ nav li, .logo-box, .logo-img, .logo-text, .phone, .button,
     float: right;
 }
 
+nav ul::after, .container-box::after, .item-block::after,
+.info-card::after, .impuls-box::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -51,7 +58,7 @@ h1, h2, h3 {
     width: 445px;
 }
 
-nav li:last-of-type {
+nav li:last-child {
     margin-right: 0;
 }
 
@@ -175,7 +182,7 @@ main {
     margin-right: 30px;
 }
 
-.card-box:last-of-type {
+.card-box:last-child {
     margin-right: 0;
 }
 
@@ -251,7 +258,7 @@ input::placeholder {
     margin-top: 18px;
 }
 
-.bonus-card:last-of-type {
+.bonus-card:last-child {
     margin-right: 0;
 }
 
@@ -333,7 +340,7 @@ input::placeholder {
     margin-right: 30px;
 }
 
-.category-box:last-of-type {
+.category-box:last-child {
     margin-right: 0;
 }
 
@@ -347,10 +354,11 @@ input::placeholder {
 }
 
 .category-list li {
+    float: none;
     margin-bottom: 15px;
 }
 
-.category-list li:last-of-type {
+.category-list li:last-child {
     margin-bottom: 0;
 }
 
@@ -371,7 +379,7 @@ input::placeholder {
     margin-right: 20px;
 }
 
-.social-box li:last-of-type {
+.social-box li:last-child {
     margin-right: 0;
 }
 
